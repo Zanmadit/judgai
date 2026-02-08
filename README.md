@@ -10,6 +10,7 @@ Instead of relying only on a README or a short demo, the system explores the cod
 - a GitHub repository link
 - a demo video
 - a team name
+
 **The system automatically**:
 1. Reads and analyzes the README to extract project claims
 2. Explores the GitHub repository and selects priority files relevant to those claims
