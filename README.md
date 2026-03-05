@@ -1,6 +1,6 @@
 # judgai
 
-AI Hackathon Judge is an autonomous system that evaluates hackathon projects the way a real jury would — by analyzing the GitHub repository, demo video, and project claims together.
+AI Hackathon Judge is an autonomous system that evaluates hackathon projects the way a real jury would - by analyzing the GitHub repository, demo video, and project claims together.
 
 Instead of relying only on a README or a short demo, the system explores the codebase, verifies claims, and produces structured scores and detailed jury-style feedback.
 
