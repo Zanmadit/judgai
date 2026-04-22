@@ -1,4 +1,4 @@
-from llm.gemini_client import gemini_generate
+from llm.llama_client import llama_complete
 from llm.prompts import JUDGE_PROMPT
 
 def judge_project(claims, code, video_summary):
@@ -7,4 +7,4 @@ def judge_project(claims, code, video_summary):
         code=code,
         video=video_summary
     )
-    return gemini_generate(prompt, temperature=0.4)
+    return llama_complete(prompt, temperature=0.4)

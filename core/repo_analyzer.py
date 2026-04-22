@@ -1,5 +1,5 @@
 import json
-from llm.gemini_client import gemini_generate
+from llm.llama_client import llama_complete
 from llm.prompts import FILE_SELECTOR_PROMPT
 
 def select_priority_files(readme, files):
@@ -7,5 +7,5 @@ def select_priority_files(readme, files):
         readme=readme,
         files="\n".join(files)
     )
-    response = gemini_generate(prompt)
+    response = llama_complete(prompt)
     return json.loads(response)
